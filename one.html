@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Learning</title>
+</head>
+<body>
+	<h1>Learning Javascript</h1>
+	<p id="demo">This is intresting.. We are studying JS.</p>
+	<button onclick="changed();">Click on me</button>
+
+	<input type="text" id="name" />
+	<button onclick="text_changed();">Try me!</button>
+
+	<input type="text" id="age" />
+	<button ondblclick="changes();" onclick="show();">Me too</button>
+
+<script>
+	function changed()	{
+		b = document.getElementById("demo")
+		b.style.backgroundColor="green"
+	}
+
+	function text_changed(){
+		c = document.getElementById("name")
+		console.log(c.value)
+		c.style.width = "100px"
+	}
+
+	function changes(){
+		d = document.getElementById("age")
+		d.style.display = "none"
+	}
+
+	function show(){
+		d = document.getElementById("age")
+		d.style.display = "block"
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+Hello Pareekshit,<br>
+I was waiting to start the class on AJAX.<br>
+AJAX is really fun.<br>
+Making all the data appear dynamically<br>
+All these data has been stored but statically<br>
